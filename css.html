@@ -3,43 +3,18 @@
   <head>
     <meta charset="utf-8">
     <title>CODING WEB</title>
-    <style>
-      #grid{
-        display:grid;
-        grid-template-columns: 1fr 5fr;
-      }
-      a{
-        text-decoration: none;
-      }
-      h1{
-        border-bottom-style: solid;
-        font-size: 50px;
-        padding: 20px;
-        margin:0;
-      }
-      h1,h2,h3{
-        text-align: center;
-      }
-      #list {
-        font-size: 30px;
-        border-right-style: solid;
-      }
-      #list ol{
-        margin:0;
-        padding:30px;
-      }
-      #list a{
-        color: black;
-      }
-    </style>
+    <script src="color.js">
+    </script>
+    <link rel="stylesheet" href="language_web_design.css">
+
   </head>
   <body>
-    <h1><strong><a href="5.html">CODING WEB</a></strong></h1>
+    <h1><strong><a href="language_web.html">CODING WEB</a></strong></h1>
 
     <div id="grid">
       <div id="list">
         <ol>
-          <li><a href="5.html">HTML</a></li>
+          <li><a href="language_web.html">HTML</a></li>
           <li><a href="css.html">CSS</a></li>
           <li><a href="javascript.html">JAVASCRIPT</a></li>
         </ol>
@@ -56,5 +31,7 @@
         [네이버 지식백과] CSS [cascading style sheets] (두산백과)
         </div>
     </div>
+    <input id="night_day" type="button" value="night" onclick="nightdayhandler(this);">
+
   </body>
 </html>
